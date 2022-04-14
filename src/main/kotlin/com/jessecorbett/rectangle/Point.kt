@@ -1,3 +1,5 @@
+package com.jessecorbett.rectangle
+
 /**
  * Entity representing a point in space
  *

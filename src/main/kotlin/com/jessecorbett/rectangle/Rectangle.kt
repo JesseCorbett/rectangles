@@ -1,3 +1,5 @@
+package com.jessecorbett.rectangle
+
 /**
  * Rectangle entity with points defined in clockwise order
  */

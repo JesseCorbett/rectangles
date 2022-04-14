@@ -1,5 +1,7 @@
+package com.jessecorbett.rectangle
+
 import org.junit.jupiter.api.Test
-import java.util.Random
+import java.util.*
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue

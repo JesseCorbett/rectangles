@@ -1,4 +1,5 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import java.net.URL
 
 plugins {
     kotlin("jvm") version "1.6.20"
@@ -19,6 +20,16 @@ tasks {
     }
     dokkaHtml {
         outputDirectory.set(projectDir.resolve("docs"))
+        dokkaSourceSets {
+            configureEach {
+                includes.from("README.md")
+                sourceLink {
+                    localDirectory.set(file("src/main/kotlin"))
+                    remoteUrl.set(URL("https://github.com/JesseCorbett/rectangles/blob/master/src/main/kotlin"))
+                    remoteLineSuffix.set("#L")
+                }
+            }
+        }
     }
 }
 

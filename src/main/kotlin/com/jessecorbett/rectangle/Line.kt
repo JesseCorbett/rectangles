@@ -1,3 +1,5 @@
+package com.jessecorbett.rectangle
+
 /**
  * Line entity with points defined as start and finish
  *

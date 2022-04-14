@@ -1,3 +1,5 @@
+Module rectangle-bounds
+
 # Rectangles
 
 A simple rectangle bounds utility set, working on the assumption of an Integer grid system, disallowing rotated rectangles
