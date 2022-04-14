@@ -18,7 +18,7 @@ tasks {
         useJUnitPlatform()
     }
     dokkaHtml {
-        outputDirectory.set(projectDir.resolve("public"))
+        outputDirectory.set(projectDir.resolve("docs"))
     }
 }
 
