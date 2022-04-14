@@ -124,6 +124,26 @@ class RectangleTests {
         assertTrue(outer.bottomLeft in intersections)
     }
 
+    @Test
+    fun `not touching rectangles have no intersections`() {
+        val outer = Rectangle(
+            Point(0, 10),
+            Point(10, 10),
+            Point(10, 0),
+            Point(0, 0)
+        )
+        val inner = Rectangle(
+            Point(20, 30),
+            Point(30, 30),
+            Point(30, 20),
+            Point(20, 20)
+        )
+
+        val intersections = outer.intersections(inner)
+
+        assertTrue(intersections.isEmpty())
+    }
+
     // .adjacent tests
     @Test
     fun `touching sides is adjacent`() {
