@@ -14,7 +14,7 @@ A simple rectangle bounds utility set, working on the assumption of an Integer g
 Aside from this README there is also the [dokka pages generated](https://jessecorbett.github.io/rectangles/) from kdoc
 (equivalent of javadoc)
 
-### Point
+### [Point](https://jessecorbett.github.io/rectangles/rectangle-bounds/com.jessecorbett.rectangle/-point/index.html)
 
 The Point implementation acts as a container for a single X and Y coordinate pair
 
@@ -23,7 +23,7 @@ compare relative positions of two points.
 
 Point also offers the infix function `connectingTo` to fluently create a line from two points
 
-### Line
+### [Line](https://jessecorbett.github.io/rectangles/rectangle-bounds/com.jessecorbett.rectangle/-line/index.html)
 
 The Line implementation acts primarily as a utility for intersection and overlap testing
 
@@ -35,7 +35,7 @@ Line offers `contains` utility functions to test if a Line contains a point or w
 
 `intersects` checks if two lines touch but are not parallel and returns where they touch
 
-### Rectangle
+### [Rectangle](https://jessecorbett.github.io/rectangles/rectangle-bounds/com.jessecorbett.rectangle/-rectangle/index.html)
 
 Rectangle implementation represents an entire rectangle by the four corners, but offers a utility to also get the edges of the rectangle as Lines
 
