@@ -1,0 +1,36 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/rectangle-bounds/[root]/index.html
+$dokka.location:/Line///PointingToDeclaration/rectangle-bounds/[root]/-line/index.html
+$dokka.location:/Line/Line/#Point#Point/PointingToDeclaration/rectangle-bounds/[root]/-line/-line.html
+$dokka.location:/Line/contains/#Line/PointingToDeclaration/rectangle-bounds/[root]/-line/contains.html
+$dokka.location:/Line/contains/#Point/PointingToDeclaration/rectangle-bounds/[root]/-line/contains.html
+$dokka.location:/Line/end/#/PointingToDeclaration/rectangle-bounds/[root]/-line/end.html
+$dokka.location:/Line/horizontal/#/PointingToDeclaration/rectangle-bounds/[root]/-line/horizontal.html
+$dokka.location:/Line/intersects/#Line/PointingToDeclaration/rectangle-bounds/[root]/-line/intersects.html
+$dokka.location:/Line/overlaps/#Line/PointingToDeclaration/rectangle-bounds/[root]/-line/overlaps.html
+$dokka.location:/Line/parallelTo/#Line/PointingToDeclaration/rectangle-bounds/[root]/-line/parallel-to.html
+$dokka.location:/Line/start/#/PointingToDeclaration/rectangle-bounds/[root]/-line/start.html
+$dokka.location:/Line/vertical/#/PointingToDeclaration/rectangle-bounds/[root]/-line/vertical.html
+$dokka.location:/Point///PointingToDeclaration/rectangle-bounds/[root]/-point/index.html
+$dokka.location:/Point/Point/#kotlin.Int#kotlin.Int/PointingToDeclaration/rectangle-bounds/[root]/-point/-point.html
+$dokka.location:/Point/above/#Point/PointingToDeclaration/rectangle-bounds/[root]/-point/above.html
+$dokka.location:/Point/below/#Point/PointingToDeclaration/rectangle-bounds/[root]/-point/below.html
+$dokka.location:/Point/connectingTo/#Point/PointingToDeclaration/rectangle-bounds/[root]/-point/connecting-to.html
+$dokka.location:/Point/leftOf/#Point/PointingToDeclaration/rectangle-bounds/[root]/-point/left-of.html
+$dokka.location:/Point/rightOf/#Point/PointingToDeclaration/rectangle-bounds/[root]/-point/right-of.html
+$dokka.location:/Point/x/#/PointingToDeclaration/rectangle-bounds/[root]/-point/x.html
+$dokka.location:/Point/y/#/PointingToDeclaration/rectangle-bounds/[root]/-point/y.html
+$dokka.location:/Rectangle///PointingToDeclaration/rectangle-bounds/[root]/-rectangle/index.html
+$dokka.location:/Rectangle/Rectangle/#Point#Point#Point#Point/PointingToDeclaration/rectangle-bounds/[root]/-rectangle/-rectangle.html
+$dokka.location:/Rectangle/adjacent/#Rectangle/PointingToDeclaration/rectangle-bounds/[root]/-rectangle/adjacent.html
+$dokka.location:/Rectangle/bottomLeft/#/PointingToDeclaration/rectangle-bounds/[root]/-rectangle/bottom-left.html
+$dokka.location:/Rectangle/bottomRight/#/PointingToDeclaration/rectangle-bounds/[root]/-rectangle/bottom-right.html
+$dokka.location:/Rectangle/contains/#Rectangle/PointingToDeclaration/rectangle-bounds/[root]/-rectangle/contains.html
+$dokka.location:/Rectangle/corners/#/PointingToDeclaration/rectangle-bounds/[root]/-rectangle/corners.html
+$dokka.location:/Rectangle/edges/#/PointingToDeclaration/rectangle-bounds/[root]/-rectangle/edges.html
+$dokka.location:/Rectangle/intersections/#Rectangle/PointingToDeclaration/rectangle-bounds/[root]/-rectangle/intersections.html
+$dokka.location:/Rectangle/topLeft/#/PointingToDeclaration/rectangle-bounds/[root]/-rectangle/top-left.html
+$dokka.location:/Rectangle/topRight/#/PointingToDeclaration/rectangle-bounds/[root]/-rectangle/top-right.html
+
+
